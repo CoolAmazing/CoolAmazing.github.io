@@ -17,7 +17,7 @@ li, a {
 
 header {
     display: flex;
-    justily-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     padding: 30px 10%;
 }
@@ -25,11 +25,15 @@ header {
 p {
     font-family: Montserrat;
     font-size: 24pt;
-    color: #edf0f1
+    color: #edf0f1;
 }
 
 body {
-    text-align: center
+    text-align: center;
+}
+
+nav {
+    order: 1;
 }
 
 .nav_links {
@@ -41,12 +45,16 @@ body {
     padding: 0px 20px;
 }
 
+.nav_links li:nth-child(1) {
+    padding: 0 20px 0 0
+}
+
 .nav_links li a {
-    transition: all 0.3s ease 0s
+    transition: all 0.3s ease 0s;
 }
 
 .nav_links li a:hover {
-    color: #0088a9
+    color: #0088a9;
 }
 
 .margin {
