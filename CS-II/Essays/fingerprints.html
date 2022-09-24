@@ -11,28 +11,45 @@
     <nav>
       <ul class="nav_links">
 	<li><a href="../../index.html">Menu</a></li>
-	<li><a href="../../aboutme.html">About</a></li>
-	<li><a href="../../works.html">Works</a></li>
-	<li><a href="../../importance.html">Importance</a></li>
 	</ul>
     </nav>
     </header>
+    <div class="centerText">
+    <h2 style="color:White">Digital Fingerprints</h2>
+    <p>Andrew Liu</p>
+    <p>Allen High School, Allen Steam Center</p>
+    <p>Computer Science II</p>
+    <p>Mr. David Ben-Yakov</p>
+    <p>August 24, 2022</p>
+    <br><br>
+    </div>
     <div class="margin">
+      <h3 style="color: white;">Intro</h3>
       <p>During the early days of the internet, HTTPS was expensive, so it wasn't very common to come across a website with one. However, when the Internet became more prevalent in doing integral tasks, HTTPS was a necesity. After all, it wouldn't be very fun having private info like SSN, addresses, and credit card numbers leaked.</p>
+      <h3 style="color: white;">Certificate Authorities</h3>
       <p> HTTPS makes sure that only the client and the server gets access to the data. One thing that helped in making HTTPS commonplace was Certificate Authorities (CA). Websites can visit CA to create a secure connections after they prove their identity. While going private may seem good for many users, many organizations wanted to access the info.
+	<h3 style="color:white;">Proxy Appliances</h3>
       <p>That is where HTTPS Proxy Appliances come in. The browser would be connected to the HTTPS Proxy Appliance, which would then inspect all the data before establishing a second connection to the remote web server. This practice is known as SSL interception, which can be detected but not prevented.</p>
+      <h3 style="color: white;">Cryptographic Hashes</h3>
       <p>It can be detected when the crytographic hash (fingerprint) is different from the that of the actual site. When even one bit inside the certificate is changed, the fingerprint would be entirely different. Sometimes, a change in the fingerprint can be the sign of a man-in-the-middle attack.</p>
+      <h3 style="color: white;">MITM Attacks</h3>
       <p>A man-in-the-middle attack is when someone attempts to steal data by intercepting the connection between the user and the website. There are many ways to prevent a MITM attack, and HTTPS is usually one of the first lines of defense. However, hackers may find a way to bypass it. Sometimes there would also be errors. When it seems like the website is authentic, but the connection is actually being intercepted, it's a false positive. A false positive could happen when the site has multiple certificates.</p>
+      <h3 style="color: white;">Conclusion</h3>
       <p>With the Internet becoming more integral in the last few decades, it begs the question: Is it okay for organizations to sift through people's data? While organizations might have good intentions for doing this, I'm ultimately against this. It is the user that decides what they want to do with their data.</p>
     </div>
     <br>
     <br>
+    <div style="line-height:2">
+    <h2 style="color:White;text-align:center;">References</h2>
     <div class="hangingIndent">
       <p>Gibson Research Corporation. (2020). <i>Fingerprints</i>. <a href="https://grc.com/fingerprints.htm#top" target="_blank">https://grc.com/fingerprints.htm#top</a></p>
       <p>Imperva. (2021). <i>Man in the middle (MITM) attack</i>. <a href="https://imperva.com/learn/application-security/man-in-the-middle-attack-mitm" target="_blank">https://imperva.com/learn/application-security/man-in-the-middle-attack-mitm</a></p>
       <p>Security Boulevard. (2022). <i>Catching True Positives in Network Security</i>. <a href="https://securityboulevard.com/2022/01/catching-true-positives-in-network-security" target="_blank">https://securityboulevard.com/2022/01/catching-true-positives-in-network-security</a></p>
     </div>
+    </div>
     <br><br>
-    <img src="SSL Interception Flowchart.jpg" alt="SSL Interception Flowchart">
+    <h2 style="color:White;text-align:center;">Flowchart</h2>
+    <br>
+    <img src="SSL Interception Flowchart.jpg" alt="SSL Interception Flowchart" class="center">
         </body>
   </html>
