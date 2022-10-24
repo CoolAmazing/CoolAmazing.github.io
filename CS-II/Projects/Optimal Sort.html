@@ -14,16 +14,29 @@
       </ul>
     </nav>
   </header>
-  <h1 style="color:White">Source Code</h1>
+  <h1 style="color:White">Optimal Sorting</h1>
+  <h2 style="color:White">Source Code</h2>
   <p><a href="https://github.com/QCreates/Sorter" target="_blank">https://github.com/QCreates/Sorter</a></p>
-  <h1 style="color:White">Sheets</h1>
+  <h2 style="color:White">Sheets</h2>
   <p><a href="https://docs.google.com/spreadsheets/d/1XX0rCO48IIjxsjW3tcgFiUf8FzKskU_x3Jp8KjIVHCY/edit?usp=sharing" target="_blank">https://docs.google.com/spreadsheets/d/1XX0rCO48IIjxsjW3tcgFiUf8FzKskU_x3Jp8KjIVHCY/edit?usp=sharing</a></p>
-  <h1 style="color:White">Collaborators</h1>
+  <h2 style="color:White">Collaborators</h2>
   <ul>
     <li>Kevin Sun</li>
     <li>Qasem Aldelijaber</li>
   </ul>
-  <h1 style="color:White">Flowchart</h1>
+  <h2 style="color:White">Flowchart</h2>
   <img class="center" src="OptimalSort.jpg" alt="flowchart">
+  <br><br>
+  <h1 style="color:White">Sort Analysis</h1>
+  <h2 style="color:White">Sorting Methods' Source Code</h2>
+  <ul>
+    <li><a href="https://github.com/CoolAmazing/BubbleSort" target="_blank">Bubble Sort</a></li>
+    <li><a href="https://github.com/CoolAmazing/InsertionSort" target="_blank">Insertion Sort</a></li>
+    <li><a href="https://github.com/CoolAmazing/SelectionSort" target="_blank">Selection Sort</a></li>
+  </ul>
+  <h2 style="color:White">Sort Analysis Spreadsheet</h2>
+  <p><a href="https://docs.google.com/spreadsheets/d/1_zqGu-N4Jp1V0vNCc3qp0IW18C1z0-2diwSFckjOOXo/edit?usp=sharing" target="_blank">https://docs.google.com/spreadsheets/d/1_zqGu-N4Jp1V0vNCc3qp0IW18C1z0-2diwSFckjOOXo/edit?usp=sharing</a></p>
+  <h2 style="color:White">Explanation</h2>
+  <p>For smaller arrays of each type, all of the sorts seem to preform equally well. As the arrays get larger, differences start to show. Insertion sort is fastest for arrays that are already sorted and the ones that are randomized. This could be due to how it forms an already sorted subarray at the start. For the ordered array, everything is already sorted, so it only needs to check each element as it passes by. Insertion sort is effective for random arrays because there may be some elements in the array that are already in the right order. Selection sort is faster than insertion sort for reverse ordered arrays. This is because insertion sort will need to compare the element to every other element in the already sorted subarray, while selection sort checks for the smallest value and brings it to the start. This allows selection sort to save time since it does not have to make as much comparisons as insertion sort. Selection sort is also the most consistant since the difference between how long it takes to sort ordered, reverse ordered, and random arrays of the same length is less than that of insertion sort and bubble sort. Although finding the smallest value in an array takes roughly the same time, there is still a noticeable difference between the sorting time depending on the array type due to the time it takes to place values to the right place. Bubble sort is the slowest sort because it has to sort through unsorted values, checking elements one by one and bringing them to the end. This method is slower than what insertion sort and selection sort uses. When compared to insertion sort, the sorted subarray that insertion sort uses allows it to cut out unnecessary comparisons. An optimized version of bubble sort can cut out unnecessary comparisons, but not by much because of its method of sorting. When compared to selection sort, selection sort only needs to find the smallest element and place it at the start, so selection sort makes less comparisons and swaps than bubble sort.</p>
   </body>
 </html>   
